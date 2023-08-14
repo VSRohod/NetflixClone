@@ -7,7 +7,7 @@ export default () => {
   useEffect(()=>{
     const loadAll = async () =>{
       //pegando lista geral
-      let list = await Tmdb.getHomeList();
+      var list = await Tmdb.getHomeList();
       console.log(list)
     }
 
